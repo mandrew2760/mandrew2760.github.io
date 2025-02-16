@@ -23,6 +23,12 @@ h1, h2 {
 .header h1 {
     margin: 10px 0;
 }
+.colored-line {
+    border: 0;
+    height: 2px;
+    background-color: #035117;
+    margin: 2% 0;
+}
 .contact {
     margin: 10px 0;
     font-size: 14px;
@@ -35,7 +41,7 @@ h1, h2 {
     margin: 20px 0;
 }
 .section h2 {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     border-bottom: 2px solid #007bff;
     padding-bottom: 5px;
 }
@@ -59,4 +65,5 @@ h1, h2 {
     display: inline-block;
     background: #007bff;
     color: #fff;
-    padding
+    padding: 0;
+}
